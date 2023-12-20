@@ -1,0 +1,104 @@
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.bord {
+    border: 2px solid;
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+}
+
+.main-box {
+    position: relative;
+    width: 600px;
+    height: 350px;
+    background-color: antiquewhite;
+    margin: 4rem;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    transition: 2s;
+}
+
+.inp-box {
+    border: 2px solid;
+    width: 30vw;
+    padding: 50px 20px;
+}
+
+.btn {
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
+#result {
+    color: blue;
+}
+
+#icon-1 {
+    position: absolute;
+    font-size: 45px;
+    top: 13rem;
+    left: 5px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#icon-2 {
+    position: absolute;
+    font-size: 45px;
+    top: 13rem;
+    right: 5px;
+    border-radius: 50%;
+    padding: 5px;
+
+}
+
+#icon-2:active,
+#icon-1:active {
+    background-color: rgb(5, 77, 53);
+    color: rgb(244, 247, 67);
+}
+
+table {
+    border: 1px solid;
+    width: 100%;
+    margin: 0 auto;
+}
+
+td {
+    border: 1px solid;
+}
+
+table input {
+    width: 90%;
+}
+
+#calculate {
+    display: block;
+    margin: 0 auto;
+    padding: 7px;
+    width: 40%;
+    background-color: rgb(3, 167, 3);
+    color: rgb(222, 247, 2);
+    cursor: pointer;
+    border: 2px solid rgb(43, 177, 5);
+}
+#calculate:active{
+    background-color: black;
+    color: rgb(244, 204, 61);
+}
+
+p {
+    display: inline-block;
+    margin: 1rem;
+}
